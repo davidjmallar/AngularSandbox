@@ -1,0 +1,22 @@
+<h1>Angular Http calling backend!</h1>
+<button *ngIf="!isLoading" (click)="update()">Refresh</button>
+<button *ngIf="isLoading" (click)="cancelAll()">Cancel</button>
+<table *ngIf="!isLoading">
+    <thead>
+        <th>Date</th>
+        <th>Degree</th>
+        <th>Summary</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of weathers">
+            <td>{{e.date}}</td>
+            <td>{{e.temperatureC}}</td>
+            <td>{{e.summary}}</td>
+        </tr>
+    </tbody>
+</table>
+<div *ngIf="isLoading">
+    <h3>
+        Loading ...
+    </h3>
+</div>

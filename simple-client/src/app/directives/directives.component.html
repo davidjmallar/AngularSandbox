@@ -1,0 +1,16 @@
+<h1>Angular Directives!</h1>
+<table *ngIf="list.length > 0">
+    <thead>
+        <th>Name</th>
+        <th>Age</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of list">
+            <td>{{e.name}}</td>
+            <td>{{e.age}}</td>
+        </tr>
+    </tbody>
+</table>
+<h1 *ngIf="list.length <= 0">
+    List is empty
+</h1>
