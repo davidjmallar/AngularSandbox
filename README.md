@@ -12,42 +12,44 @@ Topikok:
         - Angular Language Service
         - TSLint
         - Formatter (e.g.: Prettier)
-    - Generate project.
+    - Generate project. - ng s
 - Project structure.
-    - Component - Module
+    - Component
     - HTML Template → TypeScript
-    - packages.json and versioning
+    - packages.json and dependency versioning
 - TypeScript binding basics
     - One-Way / Event {{}} + (click)
     - Two-Way [()]
 - Angular directives
     - ng-if
     - ng-for
-    - ng-module, ng-style
+    - ng-style
 - Routing / Navigation
-    - Component relationship
     - Router
     - Navigating from script
-    - URL parameters
+    - Navigating from html
+    - (URL parameters
         - query parameter
-        - parameters
-- Material Theme / Custom Theming → Conti Theme
+        - parameters) - nem volt
+- Material Theme
     - Material docs
     - Modules file
+        - pár componenst kipróbáltunk
 - Environments - Environment loader
 - Services
+    - Observable
     - example: HttpService 
+    - Cancelling HttpService
     - Injectable / Provider
-    - Promise vs Observable
 - Interceptors (Middlewares)
     - HttpInterceptor
-    - AuthGuard (just mock without KC)
-- Authentication
+    - (AuthGuard) - nem volt
+- Authentication (nem volt)
     - keycloak-js / keycloak-angular
-- Translation / Localization
-- Advanced HTML features
+- Translation / Localization (nem volt)
+- Advanced HTML features (nem volt)
     - Flex
     - Grid
-- Creating custom components
+- Creating custom components (nem volt)
     - Input/Output
     - Eventing, Behaviour subjects
