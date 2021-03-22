@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   constructor(private router: Router) { }
+  showFiller = false;
   public onNavigateClick() {
     this.router.navigate(['']);
   }

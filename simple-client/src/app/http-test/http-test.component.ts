@@ -29,7 +29,8 @@ export class HttpTestComponent implements OnInit, OnDestroy {
   update() {
     console.log('Calling backend!');
     this.isLoading = true;
-    this.apiSubscription = this.httpClient.get<WeatherForecast[]>("http://localhost:5000/weatherforecast").subscribe(res => {
+    this.apiSubscription = this.httpClient.get<WeatherForecast[]>("http://localhost:5000/weatherforecast")
+    .subscribe(res => {
       console.log('ok!');
       this.isLoading = false;
       console.table(res);

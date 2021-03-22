@@ -1,0 +1,5 @@
+{
+    "settings":{
+        "backendUri": "https://jsonplaceholder.typicode.com/todos/"
+    }
+}

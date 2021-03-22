@@ -4,11 +4,13 @@ import { DefaultComponent } from './default/default.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { HttpTestComponent } from './http-test/http-test.component';
 import { BindingsComponent } from './bindings/bindings.component';
+import { FifthComponent } from './fifth/fifth.component';
 
 const routes: Routes = [
   { path: 'binding', component: BindingsComponent },
   { path: 'directives', component: DirectivesComponent },
   { path: 'http', component: HttpTestComponent },
+  { path: 'fifth', component: FifthComponent },
   { path: '**', component: DefaultComponent },
 ];
 
